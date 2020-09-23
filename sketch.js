@@ -19,6 +19,7 @@ function setup() {
   
   }
   
+  createButton("start")
   mic = new p5.AudioIn();
   mic.start();
   
